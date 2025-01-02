@@ -1,34 +1,33 @@
 /* style.css */
 body {
-    background-color: #f7f7f7;
-    font-family: 'Arial', sans-serif;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
 }
 
 header {
-    background-color: #0044cc;
+    background-color: #333;
     color: white;
-    padding: 2rem;
-    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
 }
 
 footer {
+    text-align: center;
+    padding: 10px;
     background-color: #333;
     color: white;
     position: fixed;
     width: 100%;
     bottom: 0;
-}
-
-ul.list-group {
-    background-color: #fff;
-    border-radius: 5px;
-}
-
-.list-group-item h4 {
-    color: #0044cc;
-}
-
-.list-group-item p {
-    font-size: 0.9rem;
-    color: #555;
 }
